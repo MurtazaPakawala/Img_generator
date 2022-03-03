@@ -5,7 +5,7 @@
 }
 .flex-box-container {
   display: flex;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
@@ -14,5 +14,7 @@
 .flex-box-container img {
   height: 200px;
   width: 200px;
-  padding: 10px;
+  /* padding: 15px; */
+  margin: 10px;
+  box-shadow: 0px 10px 50px black;
 }
